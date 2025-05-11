@@ -1,0 +1,117 @@
+body {
+  display: block;
+  width: 10em;
+  height: 10em;
+  background: rgb(34, 34, 34);
+  color: white;
+
+  margin: 0;
+  padding: 0;
+
+  max-width: 100vw;
+  max-height: 100vh;
+
+  width: 100%;
+  height: 100%;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-use-select: none;
+  user-select: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.div_top {
+  margin-top: 20px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_span {
+  font-family: "Moirai One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.div_body {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div_button {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 90px;
+
+  gap: 70px;
+}
+
+.start_button {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: #3288ff;
+  box-shadow: #3288ff 0 0 12px;
+}
+
+.start_button:hover {
+  background-color: #68a5fa;
+  box-shadow: #68a5fa 0 0 12px;
+}
+
+.noted_span {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.explain_div {
+  padding-top: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.noted_span2_head {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  padding-bottom: 8px;
+}
+
+.noted_span2 {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
