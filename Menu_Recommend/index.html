@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu_Recommend</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link
+      rel="icon"
+      href="./src/assets/token_24dp_D9D9D9_FILL0_wght400_GRAD0_opsz24.png"
+    />
+  </head>
+  <body>
+    <div class="Main_head">
+      <span class="Main_head_title color_sty">점</span>
+      <span class="Main_head_title space_between">심</span>
+      <span class="Main_head_title color_sty">메</span>
+      <span class="Main_head_title space_between">뉴</span>
+      <span class="Main_head_title color_sty">추</span>
+      <span class="Main_head_title">천</span>
+    </div>
+
+    <div class="Main">
+      <div class="Main_filter">
+        <span class="Main_filter_title">필터</span>
+        <div class="Main_filter_type-1">
+          <span class="Main_filter_type-1_type">종류</span>
+          <div class="Main_filter_type-1_selectop">
+            <input type="radio" id="type_all" name="type" value="1">
+            <label for="grade1">전체</label>
+
+            <input type="radio" id="type_kr" name="type" value="2">
+            <label for="grade2">한식</label>
+
+            <input type="radio" id="type_us" name="type" value="3">
+            <label for="grade3">양식</label>
+
+            <input type="radio" id="type_ch" name="type" value="4">
+            <label for="grade1">중식</label>
+
+            <input type="radio" id="type_jp" name="type" value="5">
+            <label for="grade2">일식</label>
+
+            <input type="radio" id="type_ex" name="type" value="6">
+            <label for="grade3">분식</label>
+          </div>
+        </div>
+
+        <div class="Main_filter_type-2">
+
+        </div>
+
+        <div class="Main_filter_type-3">
+
+        </div>
+      </div>
+
+      <div class="Main_result">
+        <span class="Main_result_title">오늘의 점심 메뉴는?</span>
+        <div class="Main_result_value">
+          <span class="Main_result_value_unselect">김밥</span>
+          <span class="Main_result_value_select">김밥</span>
+          <span class="Main_result_value_unselect">김밥</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

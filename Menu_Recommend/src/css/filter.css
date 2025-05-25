@@ -1,0 +1,23 @@
+.Main_filter {
+  box-sizing: border-box;
+  width: 25vw;
+  max-height: 80vh;
+  height: 100%;
+
+  border-top: 5%;
+  border-bottom: 5%;
+
+  padding: 2%;
+
+  display: flex;
+
+  background-color: #fffdf6;
+  border: none;
+  border-radius: 35px;
+
+  color: #1E1E1E;
+}
+
+.Main_filter_title {
+    font-size: clamp(2px, 2vw, 30px);
+}
