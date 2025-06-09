@@ -1,0 +1,63 @@
+@import "../components/reset.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+@import "./pageheader.css";
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.definition-section,
+.principles-section,
+.benefits-section {
+  margin-bottom: 48px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.section-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #374151;
+}
+
+.principles-grid,
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.principle-item,
+.benefit-item {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.principle-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.principle-title,
+.benefit-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.principle-text,
+.benefit-text {
+  color: #6b7280;
+  line-height: 1.6;
+}

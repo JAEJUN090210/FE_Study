@@ -1,0 +1,92 @@
+.footer {
+  background: #1f2937;
+  color: white;
+  padding: 48px 0 16px;
+  margin-top: 48px;
+}
+
+.footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 16px;
+}
+
+.footer-title {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: bold;
+  color: #16a34a;
+}
+
+.footer-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-description {
+  color: #d1d5db;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.social-link {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #16a34a;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #16a34a;
+}
+
+.contact-info p {
+  color: #d1d5db;
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #374151;
+  padding-top: 16px;
+  text-align: center;
+  color: #9ca3af;
+}
