@@ -1,0 +1,73 @@
+/* 다크 모드 about 페이지 스타일 - 컴포넌트 스타일 가져오기 */
+@import "../components/reset.css";
+@import "../components/header.css";
+@import "../components/footer.css";
+@import "./pageheader.css";
+
+/* about 페이지 콘텐츠 영역 */
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* 섹션 간 여백 */
+.definition-section,
+.principles-section,
+.benefits-section {
+  margin-bottom: 48px;
+}
+
+/* 섹션 제목 스타일 */
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f1f5f9;
+  margin-bottom: 16px;
+}
+
+/* 섹션 텍스트 스타일 */
+.section-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #94a3b8;
+}
+
+/* 원칙 및 장점 그리드 레이아웃 */
+.principles-grid,
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+/* 원칙 및 장점 항목 스타일 */
+.principle-item,
+.benefit-item {
+  background: #1e293b;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* 원칙 아이콘 스타일 */
+.principle-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+/* 원칙 및 장점 제목 스타일 */
+.principle-title,
+.benefit-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f1f5f9;
+  margin-bottom: 8px;
+}
+
+/* 원칙 및 장점 텍스트 스타일 */
+.principle-text,
+.benefit-text {
+  color: #94a3b8;
+  line-height: 1.6;
+}

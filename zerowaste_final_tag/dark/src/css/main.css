@@ -1,0 +1,6 @@
+@import "../components/reset.css"; /* 기본 스타일 초기화 */
+@import "../components/header.css"; /* 다크 모드 헤더 컴포넌트 스타일 */
+@import "../components/footer.css"; /* 다크 모드 푸터 컴포넌트 스타일 */
+@import "./hero.css"; /* 다크 모드 히어로 섹션 스타일 */
+@import "./content.css"; /* 다크 모드 메인 콘텐츠 스타일 */
+@import "./cards.css"; /* 다크 모드 카드 컴포넌트 스타일 */

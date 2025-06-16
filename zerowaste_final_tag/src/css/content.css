@@ -1,0 +1,85 @@
+/* 메인 콘텐츠 영역 스타일 */
+.main-content {
+  padding: 32px 0;
+}
+
+/* 메인 컨테이너 */
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* 콘텐츠 그리드 레이아웃 */
+.content-grid {
+  display: flex;
+  gap: 32px;
+}
+
+/* 주요 뉴스 콘텐츠 영역 */
+.featured-content {
+  width: 66.666%;
+}
+
+/* 뉴스 아티클 카드 스타일 */
+.featured-article {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+/* 아티클 이미지 컨테이너 */
+.article-image {
+  position: relative;
+}
+
+/* 아티클 이미지 스타일 */
+.article-image img {
+  width: 100%;
+  height: 256px;
+  object-fit: cover;
+}
+
+/* 아티클 배지 스타일 */
+.article-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: #16a34a;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* 아티클 콘텐츠 영역 */
+.article-content {
+  padding: 24px;
+}
+
+/* 아티클 제목 스타일 */
+.article-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+/* 아티클 설명 텍스트 */
+.article-description {
+  color: #6b7280;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* 아티클 메타 정보 */
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #9ca3af;
+}

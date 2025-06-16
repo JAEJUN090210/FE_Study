@@ -1,0 +1,96 @@
+@import "../components/reset.css"; /* 기본 스타일 초기화 */
+@import "../components/header.css"; /* 헤더 컴포넌트 스타일 */
+@import "../components/footer.css"; /* 푸터 컴포넌트 스타일 */
+@import "./pageheader.css"; /* 페이지 헤더 스타일 */
+
+/* 링크 호버 효과 */
+a:hover {
+  color: #16a34a;
+}
+
+/* 페이지 콘텐츠 영역 */
+.page-content {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+/* 뉴스 콘텐츠 레이아웃 */
+.featured-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+
+/* 뉴스 아티클 호버 효과 */
+.featured-article:hover {
+  transform: translateY(-2px);
+}
+
+/* 뉴스 아티클 스타일 */
+.featured-article {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  width: 500px;
+  text-align: justify;
+  transition: transform 0.3s ease;
+}
+
+/* 아티클 이미지 컨테이너 */
+.article-image {
+  position: relative;
+}
+
+/* 아티클 이미지 스타일 */
+.article-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* 아티클 배지 스타일 */
+.article-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: #16a34a;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* 아티클 콘텐츠 영역 */
+.article-content {
+  padding: 24px;
+}
+
+/* 아티클 제목 스타일 */
+.article-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+/* 아티클 설명 텍스트 */
+.article-description {
+  color: #6b7280;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* 아티클 메타 정보 */
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #9ca3af;
+}

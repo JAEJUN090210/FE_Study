@@ -1,0 +1,94 @@
+/* 구글 폰트 로드 - Noto Sans KR, Offside, WDXL Lubrifont TC 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Offside&family=WDXL+Lubrifont+TC&display=swap");
+
+/* 헤더 영역 스타일 */
+.header {
+  background: white; /* 흰색 배경 */
+  border-bottom: 1px solid #e5e7eb; /* 하단 경계선 */
+  position: sticky; /* 스크롤 시 상단에 고정 */
+  top: 0;
+  z-index: 50; /* 다른 요소 위에 표시 */
+  width: 100%;
+}
+
+/* 헤더 컨테이너 - 너비 제한 및 중앙 정렬 */
+.header-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* 헤더 콘텐츠 레이아웃 - 로고, 네비게이션, 모드 전환 버튼 배치 */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+/* 로고 스타일 */
+.logo h1 {
+  font-family: "WDXL Lubrifont TC", sans-serif; /* 특별한 폰트 적용 */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  color: #16a34a; /* 녹색 로고 */
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 데스크톱 네비게이션 스타일 */
+.nav-desktop {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* 메뉴 항목 간격 */
+}
+
+/* 테마 모드 전환 영역 스타일 */
+.mode-desktop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 10px;
+  gap: 10px;
+}
+
+/* 네비게이션 링크 스타일 */
+.nav-link {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  transition: color 0.3s ease; /* 색상 변화 애니메이션 */
+  padding: 8px 0;
+  border-bottom: 2px solid transparent; /* 투명 하단 경계선 */
+}
+
+/* 네비게이션 링크 호버/활성 상태 */
+.nav-link:hover,
+.nav-link.active {
+  color: #16a34a; /* 녹색으로 변경 */
+  border-bottom-color: #16a34a; /* 하단 경계선 표시 */
+}
+
+/* 로그인 버튼 스타일 */
+.login-btn {
+  padding: 8px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #374151;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+/* 로그인 버튼 호버/활성 상태 */
+.login-btn:hover,
+.login-btn.active {
+  background-color: #16a34a; /* 녹색 배경 */
+  color: white;
+  border-color: #16a34a;
+  transition: color 0.3s ease;
+}

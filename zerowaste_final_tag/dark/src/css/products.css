@@ -1,0 +1,78 @@
+@import "../components/reset.css"; /* 기본 스타일 초기화 */
+@import "../components/header.css"; /* 헤더 컴포넌트 스타일 */
+@import "../components/footer.css"; /* 푸터 컴포넌트 스타일 */
+@import "./pageheader.css"; /* 페이지 헤더 스타일 */
+
+/* 제품 그리드 레이아웃 */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* 제품 항목 스타일 */
+.product-item {
+  background: #1e293b;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* 제품 항목 호버 효과 */
+.product-item:hover {
+  transform: translateY(-4px);
+}
+
+/* 제품 이미지 스타일 */
+.product-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* 제품 정보 영역 */
+.product-info {
+  padding: 24px;
+}
+
+/* 제품 이름 스타일 */
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f1f5f9;
+  margin-bottom: 8px;
+}
+
+/* 제품 설명 스타일 */
+.product-description {
+  color: #94a3b8;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* 제품 가격 스타일 */
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #16a34a;
+  margin-bottom: 16px;
+}
+
+/* 제품 구매 버튼 스타일 */
+.product-btn {
+  width: 100%;
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* 제품 구매 버튼 호버 효과 */
+.product-btn:hover {
+  background: #15803d;
+}

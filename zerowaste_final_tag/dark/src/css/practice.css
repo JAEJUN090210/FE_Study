@@ -1,0 +1,86 @@
+@import "../components/reset.css"; /* 기본 스타일 초기화 */
+@import "../components/header.css"; /* 헤더 컴포넌트 스타일 */
+@import "../components/footer.css"; /* 푸터 컴포넌트 스타일 */
+@import "./pageheader.css"; /* 페이지 헤더 스타일 */
+
+/* 탭 메뉴 스타일 */
+.practice-tabs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #334155;
+}
+
+/* 탭 버튼 스타일 */
+.tab-btn {
+  background: none;
+  border: none;
+  padding: 16px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #94a3b8;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+/* 탭 버튼 활성 */
+.tab-btn.active,
+.tab-btn:hover {
+  color: #16a34a;
+  border-bottom-color: #16a34a;
+}
+
+/* 탭 콘텐츠 기본 상태 */
+.tab-content {
+  display: none;
+}
+
+/* 탭 콘텐츠 활성 상태 */
+.tab-content.active {
+  display: block;
+}
+
+/* 탭 제목 스타일 */
+.tab-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f1f5f9;
+  margin-bottom: 32px;
+}
+
+/* 실천방법 그리드 레이아웃 */
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* 실천방법 항목 스타일 */
+.practice-item {
+  background: #1e293b;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 실천방법 아이콘 스타일 */
+.practice-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+/* 실천방법 제목 스타일 */
+.practice-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f1f5f9;
+  margin-bottom: 8px;
+}
+
+/* 실천방법 텍스트 스타일 */
+.practice-text {
+  color: #94a3b8;
+  line-height: 1.6;
+}
